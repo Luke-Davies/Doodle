@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Doodle</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" />
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script src="socket.io/socket.io.js"></script>
+      <script src="test.js"></script>
+   </head>
+   <body>
+      <label for="rInput">R</label>
+      <input type="text" id="rInput" value="0"/>
+      <label for="rInput">G</label>
+      <input type="text" id="gInput" value="0"/>
+      <label for="rInput">B</label>
+      <input type="text" id="bInput" value="0"/>
+      <label for="penSizeInput">Pen Size</label>
+      <input type="text" id="penSizeInput" value="1"/>
+      <br/>
+      <label for="roomSelect">Select Room</label>
+      <select id="roomSelect">
+        <option value="default">------------------ default ------------------</option>
+      </select>
+      <canvas id="drawing"></canvas>
+   </body>
+</html>

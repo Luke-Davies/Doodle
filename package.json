@@ -1,0 +1,16 @@
+{
+  "name": "doodle",
+  "version": "1.0.0",
+  "description": "Collaborative Drawing Cavas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Davies",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.0.1"
+  }
+}
